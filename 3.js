@@ -1,0 +1,1 @@
+function gianmr_thumbnail_resize(t,a,e,i){var s=t,c=a,g=!0,A="https://2.bp.blogspot.com/-erTXCq61ULM/TmHYAQBZ0GI/AAAAAAAACCs/6cBX54Dn6Gs/s72-c/default.png";return 1==g&&""==e&&(e=A),image_tag='<img src="'+e.replace("/s72-c/","/w"+s+"-c-h"+c+"/")+'" class="post-thumbnail" alt="'+i+'" width="'+s+'" height="'+c+'" title="'+i+'"/>',""!=e?image_tag:""}
