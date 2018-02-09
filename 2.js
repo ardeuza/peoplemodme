@@ -1,0 +1,1 @@
+function recentpostslist(e){document.write("<ul>");for(var t=0;t<e.feed.entry.length&&t!=e.feed.entry.length;t++){for(var r=0;r<e.feed.entry[t].link.length;r++)if("alternate"==e.feed.entry[t].link[r].rel){entryUrl=e.feed.entry[t].link[r].href;break}var n=e.feed.entry[t].title.$t,l='<li><a href="'+entryUrl+'" title="'+n+'">'+n+"</a></li>";document.write(l)}document.write("</ul>")}
